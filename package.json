@@ -1,0 +1,43 @@
+{
+  "name": "proctorme-in-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "start": "cross-env DEBUG=app:* node ./app.js",
+    "watch": "cross-env DEBUG=app:* nodemon ./app.js",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Proctorme Team",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1186.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "debug": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-jwt": "^6.1.0",
+    "firebase-admin": "^10.2.0",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "2.5.1"
+  }
+}
