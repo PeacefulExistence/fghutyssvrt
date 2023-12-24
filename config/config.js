@@ -17,8 +17,8 @@ const config = {
   authPrefix: process.env.AUTH_HEADER_PREFIX || "BEARER",
   storageBucket: process.env.BUCKET_URL,
 
-  AccessKeyID: process.env.AWS_ACCESS_KEY_ID,
-  SecretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  AccessKeyID: process.env.AWS_ACCESS_KEY_I,
+  SecretAccessKey: process.env.AWS_SECRET_ACCESS_KE,
   Account_ID: process.env.AWS_ACCOUNT_ID ,
 };
 
