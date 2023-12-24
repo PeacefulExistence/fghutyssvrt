@@ -17,9 +17,9 @@ const config = {
   authPrefix: process.env.AUTH_HEADER_PREFIX || "BEARER",
   storageBucket: process.env.BUCKET_URL,
 
-  AccessKeyID: "AKIAWL66LJE7G6FMVRUI",
-  SecretAccessKey: "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",
-  Account_ID: 438016100670,
+  AccessKeyID: process.env.AWS_ACCESS_KEY_ID,
+  SecretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+  Account_ID: process.env.AWS_ACCOUNT_ID ,
 };
 
 module.exports = config;
