@@ -12,7 +12,7 @@ exports.signIn = async (req, res) => {
     // Recieve candidate details
     const { email, exam } = req.body.candidate;
     // validate all the fields
-    if (!email || !examId) {
+    if (!email || !exam) {
       return res.status(400).json({
         type: "failure",
         message: "email and exam fields can't be empty ",
