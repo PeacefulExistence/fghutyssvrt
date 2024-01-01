@@ -48,7 +48,7 @@ app.use(
   fileUpload({
     useTempFiles: true,
     createParentPath: true,
-    tempFileDir: path.join(__dirname, "uploads/temp"),
+    tempFileDir: path.join(__dirname, "tmp"),
   })
 );
 
